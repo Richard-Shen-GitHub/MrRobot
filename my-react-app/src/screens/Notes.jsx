@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ResponsiveAppBar from '../components/Navbar';
 
-function Template() {
+function Notes() {
     return (
         <>
             <ResponsiveAppBar/>
@@ -11,4 +11,4 @@ function Template() {
         </>
     );
 }
-export default Template;
+export default Notes;
