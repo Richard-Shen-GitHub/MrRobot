@@ -12,9 +12,21 @@
 
 body {
   background-image: url('../public/hacker_background_image.jpg');
-  background-size: 900px 500px;
+  /* background-image: url('../public/COMP6441_fsociety.png'); */
+  background-size: 500px 300px;
   background-position: center;
   background-blend-mode: color;
   /* background-size: auto; */
-  /* background-repeat: no-repeat; */
+  background-repeat: repeat;
+}
+
+.analysis-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.analysis-text {
+  color: white;
 }
